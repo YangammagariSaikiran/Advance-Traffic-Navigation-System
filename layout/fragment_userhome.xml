@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Userhome">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+       >
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user"/>
+
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/purple_500"/>
+
+
+        <Button
+            android:id="@+id/btnaddrequest"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/btn"
+            android:layout_margin="15dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="Add Request"/>
+
+
+        <Button
+            android:id="@+id/btnhistory"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/btn"
+            android:layout_margin="15dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="History"/>
+
+
+        <Button
+            android:id="@+id/viewaccidentzone"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/btn"
+            android:layout_margin="15dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:text="Accident Zone"/>
+
+    </LinearLayout>
+
+</FrameLayout>

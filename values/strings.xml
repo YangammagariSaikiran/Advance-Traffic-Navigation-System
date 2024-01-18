@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Advance Traffic Navigation System</string>
+    <string name="not_registered_yet"><u><i>Not Registered yet ?</i></u></string>
+    <string name="view_user"><u><b>View user</b></u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_request"><u><i>Add Request</i></u></string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_showaccident">showaccident</string>
+    <string name="feedback"><i>Feedback</i></string>
+</resources>
